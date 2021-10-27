@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title><br></br>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+		  <style>
+		  #footer{
+		  position:fixed;
+		  }
+		  </style>
+</head>
+<body>
+<header style="background-color:blue;display:flex;align-items:center;">
+    <h1 class="mr-auto ml-5 my-2" style="display:inline;color:white">Facebook</h1>
+    <a class="ml-auto mr-5 btn btn-outline-primary" role="button" style="color:white" href="Registration page.html">
+        Registration
+    </a>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="f_logo.jpg"
+                 class="img-fluid w-100 h-100">
+        </div>
+
+        <div class="col-lg-6">
+
+            <form method="POST">
+                <br><br>
+                <br><br>
+                <h1><b>Login</b></h1><br></br>
+                <br>
+
+                <div class="form-row">
+                    <div class="form-group col-4">
+                        <label for="email_input">Email</label>
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="text" name="email" class="form-control"
+                               id="email_input" placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-lg-4">
+                        <label for="password_input">Password</label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input type="password" name="password" class="form-control"
+                               id="password_input" placeholder="Enter your password">
+                    </div>
+                </div>
+
+
+                <div class="form-row">
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-outline-primary btn-block">
+                            Login
+                        </button>
+                    </div>
+                    <div class="col-4">
+                        <button type="reset" class="btn btn-outline-primary btn-block">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <br><br>
+        </div>
+    </div>
+</div>
+<footer>
+<div id=footer style="background-color:blue;color:white;padding:10px;text-align:center;">
+    @Copyright Reserved 2021
+</div>
+</footer>
+</body>
+</html>
