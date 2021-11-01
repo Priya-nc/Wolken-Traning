@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("D:\sodaMachine\src\main\webapp\a.jpg");
+	
+}
+header{
+	text-align:center;
+	font-size:40px;
+	background-color:navy;
+	color:white;
+	position:fixed;
+	padding:10px;
+	text-align:center; 
+	top:0%;
+	left:0%;
+	right:0%;
+}
+footer{
+	text-align:center;
+	font-size:10px;
+	background-color:navy;
+	color:white;
+	position:fixed;
+	padding:10px;
+	text-align:center; 
+	bottom:0%;
+	left:0%;
+	right:0%;
+}
+.Soda{
+	text-align:center;
+	
+}
+button{
+	
+	cursor:pointer;
+	margin:180px 20px;
+	padding:30px;
+    background-image:url("a.jpg");
+	height:40%;
+	font-size:30px;
+	
+	
+}
