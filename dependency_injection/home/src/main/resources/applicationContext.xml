@@ -12,6 +12,11 @@
    
     <bean id="home" class="com.wolken.home.Home">
     <constructor-arg value="moon"></constructor-arg>
+    <constructor-arg ref="fur"> </constructor-arg>
+    </bean>
+    <bean id="fur" class="com.wolken.home.Furniture">
+    <property name="fname" value="abcdefg"></property>
     
     </bean>
+  
  </beans>

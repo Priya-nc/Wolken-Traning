@@ -14,6 +14,7 @@ public class App
     	 Resource resource=new ClassPathResource("applicationContext.xml");
          BeanFactory beanFactory=new XmlBeanFactory(resource); 
          Home sat=(Home) beanFactory.getBean("home");
+        
          sat.PrintName();
     }
 }
