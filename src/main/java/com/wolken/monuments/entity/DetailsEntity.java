@@ -18,9 +18,7 @@ import lombok.ToString;
 @Table
 @NoArgsConstructor
 public class DetailsEntity {
-	public DetailsEntity() {
-		
-	}
+	
 	public int getId() {
 		return id;
 	}

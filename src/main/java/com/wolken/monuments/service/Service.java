@@ -1,8 +1,5 @@
 package com.wolken.monuments.service;
 
-
-	public interface Service {
-		void printHello();
-	}
-
-
+public interface Service {
+	public void printHello();
+}

@@ -7,16 +7,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.wolken.monuments.service.Service;
 @Controller
 public class HelloController {
-//	@Autowired
-//	Service service;
-//	@RequestMapping("/hello")
-//	String PrintHello() {
-//		
-//		System.out.println("controller is calling");
-//		service.printHello();
-//		return "welcome.jsp";
-//		
-//		
-//	}
+	
+	@Autowired
+	Service service;
+	
+	@RequestMapping(value="send")
+	String PrintHello() {
+		
+		
+		service.printHello();
+		return "index.jsp";
+		
+		
+	}
 	
 }
