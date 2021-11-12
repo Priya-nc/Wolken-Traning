@@ -1,7 +1,7 @@
 
 <html>
 <body>
-<h2>Hello World!</h2>
+
 
 <form action="save" method="POST">
 	Name: <input type="text" name="name" placeholder="Enter Monument Name"><br>

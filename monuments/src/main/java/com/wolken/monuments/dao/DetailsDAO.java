@@ -4,6 +4,6 @@ import com.wolken.monuments.entity.DetailsEntity;
 
 public interface DetailsDAO {
 	
-	public void save(DetailsEntity entity) ;
+	public String save(DetailsEntity entity) ;
 
 }

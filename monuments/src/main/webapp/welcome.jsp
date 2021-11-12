@@ -8,5 +8,8 @@
 </head>
 <body>
 hai hello
+<form action="send" >
+ <input type="submit" value="savee"> <input type="reset" value="reset">
+ </form>
 </body>
 </html>
